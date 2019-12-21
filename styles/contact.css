@@ -1,0 +1,113 @@
+.header-block {
+  height: 399px;
+  background-image: url("../images/contact-header-img.jpg");
+}
+
+.contact-title {
+  text-align: center;
+  padding: 126px 0 80px 0;
+}
+
+.contact-title h1 {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-size: 44px;
+  color: #021725;
+  margin: 0px;
+}
+
+.contact-title h4 {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #d4af37;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.contact-info {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/*.mail-button-container {
+    width: 60%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.mid-block {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-block-first-div {
+  width: 60.15%;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.second-block-second-div {
+  background-color: #212121;
+}
+
+.first-block-first-div,
+.second-block-second-div {
+  width: 39.06%;
+  height: 100%;
+}
+
+.first-block-first-div p,
+.second-block-second-div p {
+  font-size: 25px;
+  line-height: 32px;
+  color: white;
+  padding: 7px 0 0 32px;
+}
+
+span {
+  margin: 33px 0 0 32px;
+  display: block;
+  width: 31px;
+  height: 3px;
+  background-color: white;
+}
+
+.first-block-first-div {
+  background-color: #d3b000;
+}
+
+.second-block-first-div p {
+  font-weight: lighter;
+  font-size: 20px;
+  color: #323d43;
+  padding: 48px 56px 43px 46px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first.mid-block img {
+  width: 60.15%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.mail-button-container a {
+  margin: 77px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18.59%;
+  height: 57px;
+  border: 1px solid black;
+  text-decoration: none;
+  background-color: white;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #021725;
+}

@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  transition: 0.3s ease;
+}
+
+p {
+  font-weight: lighter;
+  color: #505d68;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: lighter;
+  color: #505d68;
+}
+
+.header-content {
+  width: 92.5%;
+  margin: 0 auto;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-block {
+  position: relative;
+  height: 400px;
+}
+
+.scroll-down {
+  --size: 32px;
+  position: absolute;
+  background-image: url("../images/img arrow-down.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: var(--size);
+  height: var(--size);
+  bottom: 50px;
+  left: calc(50% - var(--size) / 2);
+  opacity: 0.5;
+}
+
+.scroll-down:hover {
+  opacity: 1;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+}
+
+.main-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main-menu .menu {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  min-width: 180px;
+  margin: 0;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 4px;
+  list-style: none;
+  display: none;
+  transition: 0.3s ease;
+}
+
+.main-menu:hover .menu {
+  display: inherit;
+  overflow: hidden;
+}
+
+.main-menu:hover .menu li:hover {
+  background-color: #eee;
+}
+
+.main-menu .menu li {
+  display: flex;
+}
+
+.main-menu .menu li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.main-menu .menu li a {
+  padding: 0 12px;
+  flex-grow: 1;
+  text-decoration: none;
+}
+
+.main-menu .menu li a:first-of-type {
+  padding-top: 12px;
+}
+
+.main-menu .menu li a:last-of-type {
+  padding-bottom: 12px;
+}
+
+.main-menu > a {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  padding-right: 4px;
+}
+
+.main-menu .hamburger .line {
+  width: 17px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.main-menu .hamburger .line:not(:first-of-type){
+  margin-top: 3px;
+}
+
+footer {
+  margin: 0;
+  font-size: 16px;
+  color: #505d68;
+  background-color: #eeeeee;
+  height: 93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer p:first-of-type {
+  margin-right: 10.8%;
+}

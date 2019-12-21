@@ -1,0 +1,66 @@
+.header-block {
+  background-image: url("../images/about_header_background.jpg");
+}
+
+.design-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  padding: 160px 0;
+  width: 55%;
+}
+
+.main-text p {
+  margin: 0;
+}
+
+.services-section {
+  display: flex;
+  width: 100%;
+  min-height: 450px;
+}
+
+.services-section > div {
+  flex: 1;
+}
+
+.services-section .image {
+  background-image: url("../images/about_main_part_img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.services-section .text {
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+
+.services-section .text .columns {
+  display: flex;
+}
+
+.services-section .text h1 {
+  margin: 0 0 80px 0;
+  font-size: 44px;
+  color: #505d68;
+}
+
+.services-section .text .columns div p {
+  margin: 0;
+  width: 200px;
+}
+
+.services-section .text .columns div:first-of-type {
+  padding-left: 16px;
+  padding-right: 100px;
+}
+
+.services-section .text .columns div:last-of-type {
+  padding-top: 26px;
+}

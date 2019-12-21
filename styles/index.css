@@ -1,0 +1,256 @@
+.header-block {
+  background-image: url("../images/index-cd-intro_background.jpg");
+  height: 699px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.header-block h1 {
+  font-family: "Open Sans", serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 80px;
+  color: white;
+  margin: 0;
+  padding-top: 193px;
+  letter-spacing: 1px;
+}
+
+body h1,
+body h4 {
+  text-align: center;
+  font-weight: 500;
+}
+
+body h4 {
+  margin: 0px;
+  font-size: 13pх;
+  color: #d4af37;
+  padding-top: 79px;
+}
+
+body h1 {
+  font-size: 44px;
+  color: #021725;
+  margin: 0px;
+}
+
+body p {
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 32px;
+  color: #021725;
+  text-align: center;
+  padding: 30px 20% 0 20%;
+}
+
+body .button {
+  margin: 46px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18.59%;
+  height: 57px;
+  border: 1px solid black;
+  text-decoration: none;
+  background-color: white;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #021725;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 54px 0;
+}
+
+.img-container > * {
+  /* width: 300px; */
+  flex-grow: 1;
+}
+
+.img-container > * img {
+  width: 100%;
+  height: auto;
+}
+
+.img-container > *:not(:nth-of-type(4n)){
+  margin-right: 4px;
+}
+
+.team {
+  width: 58.28%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team div {
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.team div:not(:last-child) {
+  margin-right: 5px;
+}
+
+.team div img {
+  width: 100%;
+}
+
+body .team h4 {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.team h2 {
+  font-size: 21px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.team p {
+  font-weight: 200;
+  font-size: 13px;
+  color: #021725;
+  margin: 0;
+  letter-spacing: 1px;
+  text-align: left;
+  padding: 0;
+  padding-bottom: 46px;
+}
+
+body .team h4,
+.team h2,
+.team p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body h4:nth-of-type(4) {
+  padding-top: 166px;
+}
+
+.writing {
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 49px;
+}
+
+.writing div a {
+  margin-top: 50px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 127px;
+  height: 48px;
+  border: 1px solid black;
+  text-decoration: none;
+  background-color: white;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #021725;
+}
+
+.writing div h4 {
+  color: #505d68;
+  text-align: left;
+  padding-top: 40px;
+}
+
+.writing div h2 {
+  color: #505d68;
+  font-size: 30px;
+  text-align: left;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.writing div p {
+  font-size: 16px;
+  color: #505d68;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding-top: 33px;
+  padding-right: 40px;
+  line-height: 24px;
+}
+
+.writing div h4,
+.writing div h2,
+.writing div p {
+  padding-left: 40px;
+}
+
+.blog-button {
+  margin: 84px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 238px;
+  height: 57px;
+  border: 1px solid black;
+  text-decoration: none;
+  background-color: white;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #021725;
+}
+
+.location_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-block {
+  width: 59.92%;
+  margin: 0 auto;
+  display: flex;
+  background-color: #f9f9f9;
+  margin-bottom: 110px;
+}
+
+.contact-block div {
+  flex: 1;
+}
+
+.contact-block h4 {
+  color: #505d68;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact-block p {
+  font-family: "Open Sans Light";
+  font-size: 19px;
+  font-weight: 500;
+  color: #505d68;
+}
+
+body .footerr-of-index {
+  margin: 0;
+  font-size: 16px;
+  color: #505d68;
+  background-color: #eeeeee;
+  height: 93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body .footerr-of-index p {
+  margin: 0;
+  padding: 0;
+}
+
+body .footerr-of-index p:first-of-type {
+  margin-right: 10.8%;
+}
