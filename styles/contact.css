@@ -1,6 +1,7 @@
 .header-block {
   height: 399px;
   background-image: url("../images/contact-header-img.jpg");
+  width: 100%;
 }
 
 .contact-title {

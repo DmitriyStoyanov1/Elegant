@@ -19,7 +19,6 @@ ul {
 }
 
 ul li {
-  font-size: 18px;
   line-height: 1.5;
   font-weight: lighter;
   color: #505d68;
@@ -148,4 +147,74 @@ footer p {
 
 footer p:first-of-type {
   margin-right: 10.8%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-block {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-block {
+    height: 300px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-block {
+    height: 250px;
+  }
+  .main-menu .menu {
+    min-width: 150px;
+  }
+  ul li {
+    font-size: 12px;
+  }
+  .main-menu .menu li a:last-of-type {
+    padding-bottom: 7px;
+  }
+  .main-menu .menu li a:first-of-type {
+    padding-top: 10px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer p:first-of-type {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header-block {
+    height: 230px;
+  }
+  .main-menu .menu {
+    min-width: 100px;
+  }
+  .header-content img {
+    width: 80%
+  }
+  .main-menu .menu li a:first-of-type {
+    padding-top: 8px;
+  }
+  .main-menu .menu li a:last-of-type {
+    padding-bottom: 6px;
+  }
+  .scroll-down {
+    bottom: 10px;
+  }
 }
