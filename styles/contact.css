@@ -1,5 +1,4 @@
 .header-block {
-  height: 399px;
   background-image: url("../images/contact-header-img.jpg");
   width: 100%;
 }
@@ -27,7 +26,7 @@
 }
 
 .contact-info {
-  width: 60%;
+  width: 768px;
   margin: 0 auto;
 }
 
@@ -41,7 +40,6 @@
 
 .mid-block {
   width: 100%;
-  height: 300px;
   display: flex;
   justify-content: space-between;
 }
@@ -56,22 +54,16 @@
   background-color: #212121;
 }
 
-.first-block-first-div,
-.second-block-second-div {
+.first-block-first-div, .second-block-second-div {
   width: 39.06%;
-  height: 100%;
 }
 
-.first-block-first-div p,
-.second-block-second-div p {
+.first-block-first-div p, .second-block-second-div p {
   font-size: 25px;
-  line-height: 32px;
   color: white;
-  padding: 7px 0 0 32px;
 }
 
 span {
-  margin: 33px 0 0 32px;
   display: block;
   width: 31px;
   height: 3px;
@@ -86,8 +78,9 @@ span {
   font-weight: lighter;
   font-size: 20px;
   color: #323d43;
-  padding: 48px 56px 43px 46px;
+  padding: 52px 54px 52px 38px;
   margin: 0;
+  line-height: 1.4;
   box-sizing: border-box;
 }
 
@@ -103,7 +96,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 18.59%;
+  width: 238px;
   height: 57px;
   border: 1px solid black;
   text-decoration: none;
@@ -111,4 +104,79 @@ span {
   font-weight: lighter;
   font-size: 14px;
   color: #021725;
+}
+
+.center-content {
+  padding-left: 24px;
+  padding-top: 23px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-title {
+    padding: 70px 0 80px 0;
+  }
+  .mid-block {
+    height: 250px;
+  }
+  .contact-info {
+    width: 95%;
+  }
+  .second-block-first-div p {
+    padding: 34px 35px 34px 25px;
+    font-size: 19px;
+  }
+  .first-block-first-div p, .second-block-second-div p {
+    font-size: 23px;
+  }
+  .center-content {
+    padding-left: 16px;
+    padding-top: 15px;
+  }
+  .mail-button-container a {
+    margin: 45px auto;
+    width: 200px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mid-block {
+    height: 169px;
+  }
+  .contact-title {
+    padding: 25px 0 25px 0;
+  }
+  .contact-title h1 {
+    font-size: 30px;
+  }
+  span {
+    width: 20px;
+  }
+  .first-block-first-div p, .second-block-second-div p {
+    font-size: 15px;
+  }
+  .second-block-first-div p {
+    padding: 13px 18px 13px 18px;
+    font-size: 13px;
+  }
+  .mail-button-container a {
+    margin: 30px auto;
+    width: 170px;
+    height: 47px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .second-block-first-div p {
+    padding: 5px 14px 5px 14px;
+    font-size: 12px;
+  }
+  .center-content {
+    padding-left: 7px;
+    padding-top: 7px;
+  }
+  .first-block-first-div p, .second-block-second-div p {
+    font-size: 11px;
+  }
 }
