@@ -10,6 +10,7 @@
   font-family: "Open Sans", serif;
   font-weight: 300;
   font-style: italic;
+  text-align: center;
   font-size: 80px;
   color: white;
   margin: 0;
@@ -17,138 +18,151 @@
   letter-spacing: 1px;
 }
 
-body h1,
-body h4 {
-  text-align: center;
-  font-weight: 500;
-}
-
-body h4 {
-  margin: 0px;
-  font-size: 13pх;
-  color: #d4af37;
+.text-centering {
+  width: 800px;
+  margin: 0 auto;
   padding-top: 79px;
 }
 
-body h1 {
-  font-size: 44px;
-  color: #021725;
-  margin: 0px;
-}
-
-body p {
-  font-weight: lighter;
-  font-size: 18px;
-  line-height: 32px;
-  color: #021725;
+.text-centering>* {
+  margin: 0;
+  padding: 0;
   text-align: center;
-  padding: 30px 20% 0 20%;
 }
 
-body .button {
-  margin: 46px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 18.59%;
-  height: 57px;
+body h4 {
+  font-size: 13px;
+  color: #d4af37;
+  letter-spacing: 1px;
+}
+
+.text-centering h1 {
+  font-size: 44px;
+  font-weight: 600;
+  color: #747a7f;
+  padding-top: 5px;
+  letter-spacing: 1px;
+}
+
+.text-centering p {
+  font-size: 18px;
+  color: #747a7f;
+  line-height: 1.7;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+.center-button {
+  margin: 0 auto;
+  display: block;
+  width: 239px;
+  padding: 20px 0;
   border: 1px solid black;
   text-decoration: none;
   background-color: white;
   font-weight: lighter;
   font-size: 14px;
   color: #021725;
+  margin-top: 46px;
+  text-align: center;
+}
+
+.products {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 160px;
 }
 
 .img-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 54px 0;
+  padding: 80px 0;
 }
 
-.img-container > * {
+.img-container>* {
   /* width: 300px; */
   flex-grow: 1;
 }
 
-.img-container > * img {
+.img-container>* img {
   width: 100%;
   height: auto;
 }
 
-.img-container > *:not(:nth-of-type(4n)){
+.img-container>*:not(:nth-of-type(4n)) {
   margin-right: 4px;
 }
 
 .team {
-  width: 58.28%;
+  width: 800px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding-top: 50px;
 }
 
-.team div {
-  width: 100%;
+.team .members-card {
+  width: 246px;
   background-color: #f9f9f9;
+  padding-bottom: 43px;
 }
 
-.team div:not(:last-child) {
+.team div:first-child {
   margin-right: 5px;
 }
 
-.team div img {
-  width: 100%;
-}
-
-body .team h4 {
-  padding-top: 20px;
-  text-align: left;
+.team div:nth-child(2) {
+  margin-right: 3px;
 }
 
 .team h2 {
   font-size: 21px;
-  margin: 0;
-  padding-top: 20px;
-}
-
-.team p {
-  font-weight: 200;
-  font-size: 13px;
-  color: #021725;
-  margin: 0;
+  color: #747a7f;
   letter-spacing: 1px;
-  text-align: left;
-  padding: 0;
-  padding-bottom: 46px;
+  padding-top: 14px;
+  padding-bottom: 25px;
 }
 
-body .team h4,
-.team h2,
 .team p {
-  padding-left: 15px;
-  padding-right: 15px;
+  font-size: 13px;
+  color: #747a7f;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
 }
 
-body h4:nth-of-type(4) {
-  padding-top: 166px;
+.team-text-centering {
+  width: 90%;
+  padding-left: 16px;
+  padding-top: 17px;
+}
+
+.team-text-centering>* {
+  padding: 0;
+  margin: 0;
+}
+
+.last-text-centering {
+  padding-top: 160px;
 }
 
 .writing {
   display: flex;
   margin: 0 auto;
-  width: 60%;
+  width: 800px;
   padding-top: 49px;
 }
 
-.writing div a {
-  margin-top: 50px;
-  margin-left: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.writing>* {
+  background-color: #f9f9f9;
+}
+
+.writing .writing-text-centering a {
+  display: block;
+  text-align: center;
+  padding: 15px 0;
   width: 127px;
-  height: 48px;
   border: 1px solid black;
   text-decoration: none;
   background-color: white;
@@ -157,36 +171,36 @@ body h4:nth-of-type(4) {
   color: #021725;
 }
 
-.writing div h4 {
+.writing .writing-text-centering h4 {
+  margin: 0;
+  padding: 0;
   color: #505d68;
-  text-align: left;
-  padding-top: 40px;
 }
 
-.writing div h2 {
+.writing .writing-text-centering h2 {
   color: #505d68;
   font-size: 30px;
-  text-align: left;
   margin: 0;
-  padding-top: 5px;
+  padding-top: 12px;
 }
 
-.writing div p {
+.writing .writing-text-centering p {
   font-size: 16px;
   color: #505d68;
   letter-spacing: 1px;
+  line-height: 1.5;
+  padding-top: 30px;
+  padding-bottom: 55px;
   margin: 0;
-  padding: 0;
-  text-align: left;
-  padding-top: 33px;
-  padding-right: 40px;
-  line-height: 24px;
 }
 
-.writing div h4,
-.writing div h2,
-.writing div p {
-  padding-left: 40px;
+.writing-text-centering {
+  width: 312px;
+  padding: 40px 40px;
+}
+
+.center-button:last-of-type {
+  margin-top: 83px;
 }
 
 .blog-button {
@@ -204,34 +218,53 @@ body h4:nth-of-type(4) {
   color: #021725;
 }
 
-.location_img {
-  display: block;
+.location-section {
+  width: 800px;
   margin: 0 auto;
+  padding-top: 43px;
+  padding-bottom: 79px;
+}
+
+.location-section img {
+  width: 800px;
 }
 
 .contact-block {
-  width: 59.92%;
-  margin: 0 auto;
   display: flex;
   background-color: #f9f9f9;
-  margin-bottom: 110px;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 49px;
+  padding-bottom: 42px;
 }
 
 .contact-block div {
-  flex: 1;
+  flex-basis: 50%;
+}
+
+.contact-block a {
+  text-decoration: none;
 }
 
 .contact-block h4 {
   color: #505d68;
   font-weight: 600;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .contact-block p {
   font-family: "Open Sans Light";
   font-size: 19px;
+  line-height: 1.7;
   font-weight: 500;
   color: #505d68;
+  margin: 0;
+  padding-top: 49px;
+}
+
+.contact-block div:first-child, .contact-block div:nth-child(2) {
+  padding-bottom: 82px;
 }
 
 body .footerr-of-index {
@@ -254,8 +287,160 @@ body .footerr-of-index p:first-of-type {
   margin-right: 10.8%;
 }
 
+@media screen and (max-width: 768px) {
+  .header-block {
+    height: 300px;
+  }
+  .header-block h1 {
+    padding-top: 30px;
+    font-size: 50px;
+  }
+  .text-centering {
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 79px;
+  }
+  .location-section {
+    width: 650px;
+  }
+  .location-section img {
+    width: 650px;
+  }
+  .writing {
+    width: 84%;
+  }
+  .team {
+    width: 650px;
+  }
+  .team .members-card {
+    width: 25%;
+  }
+  .team .members-card img {
+    width: 100%
+  }
+  .writing img {
+    width: 50%;
+  }
+  .writing-text-centering {
+    width: 86%;
+    padding: 25px 25px;
+  }
+  .img-container>* {
+    flex-basis: 24%;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-block h1 {
+    font-size: 32px;
+  }
+  .text-centering {
+    width: 85%;
+    padding-top: 50px;
+  }
+  .text-centering h1 {
+    font-size: 30px;
+  }
+  .text-centering p {
+    font-size: 13px;
+    padding-top: 25px;
+  }
+  .center-button {
+    width: 180px;
+    font-size: 13px;
+  }
+  .center-button:last-of-type {
+    margin-top: 30px;
+  }
+  .img-container {
+    padding: 0;
+    padding-top: 40px;
+  }
+  .team-text-centering {
+    padding-left: 7px;
+    padding-top: 7px;
+  }
+  .team-text-centering h4 {
+    font-size: 11px;
+  }
+  .team h2 {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+  .team,
+  .location-section,
+  .writing {
+    width: 85%;
+  }
+  .team .members-card {
+    width: 33%;
+    padding-bottom: 20px;
+  }
+  .writing {
+    padding-top: 30px;
+  }
+  .writing .writing-text-centering h4 {
+    font-size: 11px;
+  }
+  .writing .writing-text-centering h2 {
+    font-size: 19px;
+    padding-top: 5px;
+  }
+
+  .writing .writing-text-centering p {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .writing-text-centering{
+    width: 90%;
+    padding: 10px 10px;
+  }
+  .location-section {
+    padding-bottom: 50px;
+  }
+  .location-section img {
+    width: 100%;
+  }
+  .contact-block p {
+    font-size: 13px;
+  }
+  .contact-block {
+    padding: 15px 0;
+  }
+  .contact-block div:first-child, .contact-block div:nth-child(2) {
+    padding-bottom: 25px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header-block h1 {
+    font-size: 23px;
+  }
+  .text-centering h1 {
+    font-size: 23px;
+  }
+  .team {
+    flex-direction: column;
+  }
+  .team .members-card,
+  .writing img {
+    width: 100%;
+  }
 
+  .writing {
+    flex-direction: column;
+  }
+  .location-section {
+    width: 87%;
+  }
+  .contact-block p {
+    font-size: 12px;
+  }
+  body .footerr-of-index p:first-of-type {
+    margin: 0;
   }
 }
