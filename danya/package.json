@@ -1,0 +1,15 @@
+{
+  "name": "elegant-edited-by-danya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files \"styles/*.css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pug": "^2.0.4"
+  }
+}

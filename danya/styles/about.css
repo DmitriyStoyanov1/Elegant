@@ -1,0 +1,241 @@
+.header-block {
+  background-image: url("../images/about_header_background.jpg");
+  width: 100%;
+}
+
+.design-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  padding: 160px 0;
+  width: 55%;
+}
+
+.main-text p {
+  margin: 0;
+}
+
+.services-section {
+  display: flex;
+  width: 100%;
+  min-height: 450px;
+}
+
+.services-section>div {
+  flex: 1;
+}
+
+.services-section .image {
+  background-image: url("../images/about_main_part_img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.services-section .text {
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+
+.services-section .text .columns {
+  display: flex;
+}
+
+.services-section .text h1 {
+  margin: 0 0 80px 0;
+  font-size: 44px;
+  color: #505d68;
+}
+
+.services-section .text .columns div p {
+  margin: 0;
+  width: 200px;
+}
+
+.services-section .text .columns div:first-of-type {
+  padding-left: 16px;
+  padding-right: 100px;
+}
+
+.services-section .text .columns div:last-of-type {
+  padding-top: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-block {
+    height: 350px;
+  }
+  .services-section .text {
+    padding: 0;
+    width: 50%;
+  }
+  .services-section .text .columns div:first-of-type {
+    padding-left: 25px;
+    padding-right: 35px;
+  }
+  .services-section .text .columns div p {
+    font-size: 16px;
+  }
+  ul li {
+    font-size: 16px;
+  }
+  .services-section .text h1 {
+    font-size: 38px;
+    padding-left: 35px;
+    padding-top: 35px;
+  }
+  .services-section .text .columns {
+    padding-left: 13px;
+  }
+  .main-text {
+    padding: 136px 0;
+  }
+  .main-text p {
+    font-size: 16px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-block {
+    height: 300px;
+  }
+  .services-section .text h1 {
+    font-size: 32px;
+    padding-left: 28px;
+    padding-top: 27px;
+    margin-bottom: 38px;
+  }
+  .services-section .text .columns div:first-of-type {
+    padding-left: 29px;
+    padding-right: 0px;
+  }
+  .services-section .text .columns {
+    padding-left: 0;
+  }
+  .services-section .text .columns div p {
+    width: 140px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul li {
+    font-size: 14px;
+  }
+  .main-menu .menu li a 
+  .services-section {
+    min-height: 350px;
+  }
+  .services-section .text .columns div:last-of-type {
+    padding-top: 0;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  .main-text {
+    padding: 90px 0;
+  }
+  .main-text p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-block {
+    height: 250px;
+  }
+  .main-menu .menu {
+    min-width: 150px;
+  }
+  ul li {
+    font-size: 12px;
+  }
+  .main-menu .menu li a:last-of-type {
+    padding-bottom: 7px;
+  }
+  .main-menu .menu li a:first-of-type {
+    padding-top: 10px;
+  }
+  .main-text {
+    padding: 60px 0;
+  }
+  .main-text p {
+    font-size: 12px;
+  }
+  .services-section {
+    flex-direction: column;
+  }
+  .services-section .image {
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .services-section div {
+    flex: none;
+  }
+  .services-section .text h1 {
+    font-size: 28px;
+    padding-left: 0;
+    padding-top: 12px;
+    margin-bottom: 27px;
+    text-align: center;
+  }
+  .services-section .text .columns div p {
+    width: 140px;
+    line-height: 20px;
+    font-size: 12px;
+  }
+  .services-section .text .columns {
+    padding-bottom: 25px;
+    justify-content: space-around;
+  }
+  .services-section .text {
+    width: 100%;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer p:first-of-type {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-menu .menu {
+    min-width: 100px;
+  }
+  .header-content img {
+    width: 80%
+  }
+  .main-menu .menu li a:first-of-type {
+    padding-top: 8px;
+  }
+  .main-menu .menu li a:last-of-type {
+    padding-bottom: 6px;
+  }
+  .header-block {
+    height: 230px;
+  }
+  .main-text {
+    padding: 20px 0;
+    width: 69%;
+  }
+  .main-text p {
+    line-height: 27px;
+  }
+  .scroll-down {
+    bottom: 10px;
+  }
+}

@@ -89,15 +89,13 @@
   .image-container {
     width: 100%;
   }
-}
-
-.image-container a {
-  width: 49%;
-  margin: 2px;
-}
-
-.image-container a:not(:nth-of-type(4n)) {
-  margin-right: 0;
+  .image-container a {
+    width: 49%;
+    margin: 2px;
+  }
+  .image-container a:not(:nth-of-type(4n)) {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
